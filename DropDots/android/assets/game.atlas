@@ -1,0 +1,173 @@
+
+game.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+circle_score
+  rotate: false
+  xy: 1, 9
+  size: 236, 236
+  orig: 236, 236
+  offset: 0, 0
+  index: -1
+line
+  rotate: false
+  xy: 239, 244
+  size: 422, 1
+  orig: 422, 1
+  offset: 0, 0
+  index: -1
+play_button_down
+  rotate: false
+  xy: 239, 121
+  size: 121, 121
+  orig: 121, 121
+  offset: 0, 0
+  index: -1
+drop_dots
+  rotate: false
+  xy: 362, 135
+  size: 134, 107
+  orig: 134, 107
+  offset: 0, 0
+  index: -1
+play_button
+  rotate: false
+  xy: 239, 1
+  size: 118, 118
+  orig: 118, 118
+  offset: 0, 0
+  index: -1
+logo_splash
+  rotate: false
+  xy: 498, 130
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+noads
+  rotate: false
+  xy: 612, 173
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+noads_down
+  rotate: false
+  xy: 683, 176
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 754, 185
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+highscore
+  rotate: false
+  xy: 816, 187
+  size: 55, 58
+  orig: 55, 58
+  offset: 0, 0
+  index: -1
+share
+  rotate: false
+  xy: 873, 196
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+rate
+  rotate: false
+  xy: 924, 196
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+credits
+  rotate: false
+  xy: 975, 197
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+achievement
+  rotate: false
+  xy: 975, 147
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+menu
+  rotate: false
+  xy: 612, 122
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+leaderboard_down
+  rotate: false
+  xy: 663, 122
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+sound_off
+  rotate: false
+  xy: 714, 125
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+achievement_down
+  rotate: false
+  xy: 765, 134
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+credits_down
+  rotate: false
+  xy: 816, 136
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+menu_down
+  rotate: false
+  xy: 362, 84
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+rate_down
+  rotate: false
+  xy: 413, 84
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+share_down
+  rotate: false
+  xy: 359, 33
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+leaderboard
+  rotate: false
+  xy: 410, 34
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+sound
+  rotate: false
+  xy: 464, 80
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1

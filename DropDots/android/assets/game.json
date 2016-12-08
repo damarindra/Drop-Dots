@@ -1,0 +1,62 @@
+{
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+    play:{
+      down: play_button_down,
+      up: play_button
+    },
+    credits:{
+      down: credits_down,
+      up: credits
+    },
+    leaderboard:{
+      down: leaderboard_down,
+      up: leaderboard
+    },
+    achievement:{
+      down: achievement_down,
+      up:achievement
+    },
+    sound:{
+      down:sound,
+      up:sound
+    },
+    sound_off:{
+      down:sound_off,
+      up:sound_off
+    },
+    rate:{
+      down: rate_down,
+      up: rate
+    }
+    noads:{
+      down: noads_down,
+      up: noads
+    },
+    share:{
+      down: share_down,
+      up: share
+    },
+    menu:{
+      down: menu_down,
+      up:menu
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Image:
+  {
+    line:{drawable : line},
+    circle_score:{drawable : circle_score},
+    highsocre: {drawable : highscore}
+    sound:{
+      drawable:sound
+    },
+    sound_off:{
+      drawable:sound_off
+    }
+    logo_splash:{
+      drawable:logo_splash
+    }
+    drop_dots:{
+      drawable:drop_dots
+    }
+  }
+}

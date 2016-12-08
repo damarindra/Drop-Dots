@@ -1,0 +1,319 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Drop Dots - Documentation</title>
+	
+	<meta name="description" content="Thanks for your purchase, if you have any question feel free to contact me. :)">
+	<meta name="author" content="Damar Indra">
+	<meta name="copyright" content="Damar Indra">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-08-23T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	<link rel="stylesheet" href="assets/css/custom.css" media="screen">
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/cufon.js"></script><script src="assets/js/font.js"></script><script>Cufon.replace("h1, h2, h3, h4, h5, h6");</script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='450',easing='easeOutExpo';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#F3F3F3;color:#585858;}
+		::-moz-selection{background:#111111;color:#F1F1F1;}
+		::selection{background:#111111;color:#F1F1F1;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_5.png);}
+		a{color:#111111;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -ms-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -webkit-gradient(linear, 0 0, 0 585858%, from(#333333), to(#3B3B3B));
+			  background-image: -webkit-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -o-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: linear-gradient(top, #585858, #3B3B3B);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#585858', endColorstr='#3B3B3B', GradientType=0);
+			  border-color: #3B3B3B #3B3B3B #bfbfbf;
+			  color:#F9F9F9;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #585858 #585858 #bfbfbf;
+		  background-color: #3B3B3B;
+		}
+		hr{border-top:1px solid #E5E5E5;border-bottom:1px solid #F9F9F9;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#333333;color:#F1F1F1;http://static.revaxarts-themes.com/noise.gif}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #444444;-moz-text-shadow:1px 1px 0px #444444;text-shadow:1px 1px 0px #444444;}
+		#documenter_sidebar ul{border-top:1px solid #222222;}
+		#documenter_sidebar ul a{border-top:1px solid #444444;border-bottom:1px solid #222222;color:#F1F1F1;}
+		#documenter_sidebar ul a:hover{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_sidebar ul a.current{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-drop-dots">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#requirements_and_instalation" title="Requirements and Instalation">Requirements and Instalation</a></li>
+			<li><a href="#testing_on_desktop" title="Testing on Desktop">Testing on Desktop</a></li>
+			<li><a href="#testing_on_android" title="Testing on Android">Testing on Android</a></li>
+			<li><a href="#project_structure" title="Project Structure">Project Structure</a></li>
+			<li><a href="#configuration_file" title="Configuration File">Configuration File</a></li>
+			<li><a href="#changing_icon" title="Changing Icon">Changing Icon</a></li>
+			<li><a href="#changing_game_name" title="Changing Game Name">Changing Game Name</a></li>
+			<li><a href="#changing_assets" title="Changing Assets">Changing Assets</a></li>
+			<li><a href="#ads" title="ADS">ADS</a></li>
+			<li><a href="#leaderboard_and_achievement" title="Leaderboard and Achievement">Leaderboard and Achievement</a></li>
+			<li><a href="#in_app_purchase" title="In App Purchase">In App Purchase</a></li>
+			<li><a href="#google_analytics" title="Google Analytics">Google Analytics</a></li>
+			<li><a href="#disable_ads" title="Disable Ads">Disable Ads</a></li>
+			<li><a href="#disable_iap" title="Disable In-app Purchase">Disable In-app Purchase</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Damar Indra 2015<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Drop Dots</h1>
+	<h2>Documentation</h2>
+	<div id="documenter_buttons">
+		<a href="https://play.google.com/store/apps/details?id=com.cgranule.dropdots.android" class="btn btn-primary btn-large">Google Play</a> <a href="http://codecanyon.net/user/cgranule" class="btn btn-large">Codecanyon</a> 
+	</div>
+	<hr>
+	<ul>
+	<li>created: 08/22/2015</li>
+	<li>latest update: 08/23/2015</li>
+	<li>by: Damar Indra</li>
+	
+	<li>email: <a href="mailto:&#100;&#97;&#109;&#97;&#114;&#105;&#110;&#100;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#100;&#97;&#109;&#97;&#114;&#105;&#110;&#100;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="requirements_and_instalation">
+	<div class="page-header"><h3>Requirements and Instalation</h3><hr class="notop"></div>
+<p>
+	<strong>Requirements:</strong></p>
+<ol>
+	<li>
+		Android Studio with Android SDK, Available for Linux, Mac, Windows (<a href="http://developer.android.com/sdk/index.html">http://developer.android.com/sdk/index.html</a>)</li>
+	<li>
+		Java Development Kit (<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a>)</li>
+</ol>
+	<p>
+	<img src="assets/images/Screenshot/DropDots1.0.png" style="width: 800px; height: 450px;"></p>
+<div class="alert alert-info">
+	For Eclipse user, I recommend migration to Android Studio. Eclipse is no longer supported by Google.</div>
+	<h3>Android Studio</h3>
+<p>
+	<strong>Import:</strong></p>
+<p>
+	In this tutorial I&#39;m using Ubuntu 14.04, but it should be similar with Mac or Windows User. Once you have extracted the zip file, Open Android Studio</p>
+
+	<p>
+	<img src="assets/images/Screenshot/DropDots1.1.png" style="width: 800px; height: 450px;"></p>
+<p>
+	When its loaded, you will see &quot;Welcome to Android Studio. Click&nbsp;<strong>Import project (Eclipse ADT, Gradle, etc)</strong>. New window (<strong>Select Eclipse or Gradle Project to import</strong>)&nbsp;will appear, then point to the core project&nbsp;<strong>Drop Dots&nbsp;</strong>and click OK.</p>
+
+	<p>
+	<img src="assets/images/Screenshot/DropDots1.2.png" style="width: 800px; height: 450px;"></p>
+<p>
+	Now Android Studio is going to build your project and then it will ask for Android SDK path. Just choose OK for automatically change the directory path of your Android SDK. Maybe it will take a long time, depend on your computer&nbsp;<img alt="smiley" height="20" src="assets/images/image_1.gif" title="smiley" width="20">. Once Android Studio is finished their job, it looks like these.</p>
+	<h3>Eclipse</h3>
+	<p>
+	<strong>This is not my own video, but you can follow that step by step:</strong></p>
+	<p>
+	<iframe allowfullscreen="" frameborder="0" height="470" src="https://www.youtube.com/embed/EvXXMHa_WrA" width="700"></iframe></p>
+<p>
+	<p>
+	Download Library <a href="https://www.dropbox.com/s/ntsx4lu3wzt1ojr/Libraries.zip?dl=0">here</a></p>
+	<div class="alert alert-info">
+	<strong>Note : </strong> Zip file is only include main project (set as library) and android-support-v4.jar. You can find google-play-services_lib inside your <strong>Android SDK &gt; extras &gt; google &gt; google_play_services &gt; libproject &gt; google-play-services_lib</strong></div>
+
+</section>
+<section id="testing_on_desktop">
+	<div class="page-header"><h3>Testing on Desktop</h3><hr class="notop"></div>
+<p>
+	This game is build using <a href="http://libgdx.badlogicgames.com/">LibGDX</a> which is a powerfull Java Game Library. <a href="http://libgdx.badlogicgames.com/">LibGDX</a>&nbsp;is a Game Development Framework which can be export in multiplatform. This mean you can test on Desktop before you deploy it on Android&nbsp;<img alt="wink" height="20" src="assets/images/image_4.gif" title="wink" width="20">. You can test your game on Desktop with full functionality, but feature like Admob, Leaderboard, Achievement, In App Purchase, etc not working on Desktop (not supported). If you want to test the feature, you must run it on real Android Device.</p>
+<p>
+	Testing on desktop is realy easy, just follow this step :</p>
+	<p>
+	Open / Expand Project <strong>Desktop</strong> until you got <strong>DesktopLauncher</strong>. Right Click the <strong>DesktopLauncher</strong> and select <strong>Run</strong>.</p>
+	<p>
+	<img src="assets/images/Screenshot/DropDots2.1.png" style="width: 800px; height: 450px;"></p>
+	<p>
+		<strong>Error?</strong> don&#39;t panic, Now Click on <strong>DesktopLauncher</strong> (see at top of window) then click <strong>Edit Configuration..</strong></p>
+		<p>
+	<img src="assets/images/Screenshot/DropDots2.3.png" style="width: 800px; height: 450px;"></p>
+	<p>
+		Browse your&nbsp;<strong>Working directory</strong>&nbsp;to <strong>DropDots/android/assets.&nbsp;</strong>Click OK and Apply.
+		Now run again your&nbsp;<strong>DesktopLauncher,&nbsp;</strong>you can use the step number 2 or click&nbsp;<strong>Run&nbsp;</strong>right after&nbsp;<strong>DesktopLauncher&nbsp;</strong>(top of window).
+		Then you will see your game.</p>
+		<p>
+	<img src="assets/images/Screenshot/DropDots2.4.png" style="width: 800px; height: 450px;"></p>
+	<p>
+</ol>
+</section>
+<section id="testing_on_android">
+	<div class="page-header"><h3>Testing on Android</h3><hr class="notop"></div>
+<p>
+	Testing on Android is very easy. Just change the&nbsp;<strong>Configuration&nbsp;</strong>to&nbsp;<strong>Android&nbsp;</strong>(Top Window), then right after&nbsp;<strong>Configuration&nbsp;</strong>you can find green button&nbsp;<strong>Run</strong>. Just click it and wait the project building. If you want to run on your&nbsp;<strong>real device,&nbsp;</strong>don&#39;t forget to connect your&nbsp;<strong>Android Device&nbsp;</strong>to your computer.</p>
+<p>
+	<img src="assets/images/Screenshot/DropDots3.1.png" style="width: 800px; height: 450px;"></p>
+	<p>
+	Once the project build has complete, new window will appear and you can choose your device. if you didn&#39;t connect with your device, you can use&nbsp;<strong>AVD.&nbsp;</strong>Now Android Studio building your debug apk to your&nbsp;<strong>device.</strong></p>
+<p>
+	<img src="assets/images/Screenshot/DropDots3.2.png" style="width: 800px; height: 450px;"></p>
+	<p>
+	&nbsp;</p>
+</section>
+<section id="project_structure">
+	<div class="page-header"><h3>Project Structure</h3><hr class="notop"></div>
+<p>
+	Let&#39;s take care with&nbsp;<strong>android, core, desktop, assets.</strong></p>
+<p>
+	<img src="assets/images/Screenshot/DropDots4.png" style="width: 800px; height: 450px;"></p>
+	<p>
+	<strong>android :&nbsp;</strong>this project is your way to <strong>export</strong> to&nbsp;<strong>Android Platform</strong>.&nbsp;All services like Admob, Google Play Game Services, etc on here. I&#39;ve doing magic with this project&nbsp;<img alt="cool" height="20" src="assets/images/image_2.gif" title="cool" width="20"></p>
+<p>
+	<b>core :&nbsp;</b>this project is your <strong>main game.&nbsp;</strong>This mean, all of game logic is on this project.</p>
+<p>
+	<strong>desktop :&nbsp;</strong>this project is your way to&nbsp;<strong>testing&nbsp;</strong>on&nbsp;<strong>Desktop.</strong> So? just leave it, you didn&#39;t need any change on here.&nbsp;<img alt="cheeky" height="20" src="assets/images/image_3.gif" title="cheeky" width="20"></p>
+<p>
+	<strong>assets :&nbsp;</strong>this folder placed inside of&nbsp;<strong>android&nbsp;</strong>project. All game assets is on here.</p>
+</section>
+<section id="configuration_file">
+	<div class="page-header"><h3>Configuration File</h3><hr class="notop"></div>
+<p>
+	Most of you, is only want to change the color and ids, thats why I create class <strong>Constants</strong> where you can change all the value like colors, speed, ids, etc.&nbsp;<strong>Constants.java&nbsp;</strong>file inside&nbsp;<strong>core &gt; java &gt; yourpackage &gt; utils &gt; Constants.java.&nbsp;</strong></p>
+<p>
+	<img src="assets/images/Screenshot/DropDots5.1.png" style="width: 800px; height: 450px;"></p>
+	<p>
+	<p>
+	<img src="assets/images/Screenshot/DropDots5.2.png" style="width: 800px; height: 450px;"></p>
+	<p>
+</section>
+
+<section id="changing_icon">
+	<div class="page-header"><h3>Changing Icon</h3><hr class="notop"></div>
+<p>
+	You can follow this video for changing icon. It&#39;s very easy. For creating icon in many resolution, you can use <a href="http://makeappicon.com">http://makeappicon.com</a>.</p>
+	<p>
+	<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/SDKwNh0TioE" width="560"></iframe></p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="changing_game_name">
+	<div class="page-header"><h3>Changing Game Name</h3><hr class="notop"></div>
+<p>
+	Basically game name can be found in&nbsp;<strong>Constants.java</strong>. This will change your name game at Screen.</p>
+
+	<p>
+	<img src="assets/images/Screenshot/DropDotsGameName.png"></p>
+
+	<p>
+	Then you need to change your <strong>package name.</strong>&nbsp;If you stay with <strong>default&nbsp;package name,&nbsp;</strong>you can&#39;t publish it to google play.&nbsp;<strong>Package Name&nbsp;</strong>is&nbsp;<strong>Unique.</strong>&nbsp;Okay now change with your own&nbsp;<strong>Package Name,&nbsp;</strong>let see,&nbsp;<strong>com.cgranule.dropdots</strong>. At middle is bassically company name, so change it with your own. The last one is your game name, change it. To change the package name you need to uncheck the option &quot;<b>Compact Empty Middle Package&quot;&nbsp;</b>by clicking gear icon at above of project directory.</p>
+
+	<p>
+	<img src="assets/images/Screenshot/DropDots6.1.png" style="width: 800px; height: 450px;"></p>
+	<p>
+	Then right click on <strong>package name&nbsp;</strong>(cgranule and dropdots), choose <b>Refactor &gt; Rename.</b>&nbsp;Maybe confirmation to refactoring is appear on bottom window, just choose&nbsp;<strong>Do Refactor.</strong></p>
+	<p>
+	<img src="assets/images/Screenshot/DropDots6.2.png" style="width: 800px; height: 450px;"></p>
+	<p>
+	Then go to&nbsp;<strong>AndroidManifest.xml&nbsp;</strong>and check if the package name has been change or no. If not, change it manually.</p>
+	<p>
+	<img src="assets/images/Screenshot/DropDots6.3.png" style="width: 800px; height: 450px;"></p>
+	<p>
+	Finally go to&nbsp;<strong>android &gt; res &gt; values &gt; strings.xml&nbsp;</strong>and change&nbsp;<strong>app_name.&nbsp;</strong>Thats name is appear bellow of the icon in&nbsp;<strong>Android Device.</strong></p>
+
+	<p>
+	<img src="assets/images/Screenshot/DropDots6.4.png" style="width: 800px; height: 450px;"></p>
+	<p>
+	I would also recommend to checking in&nbsp;<strong>build.gradle (android)&nbsp;</strong>if all package is same as your package name.</p>
+</section>
+<section id="changing_assets">
+	<div class="page-header"><h3>Changing Assets</h3><hr class="notop"></div>
+<p>
+	All images and sounds used in game is placed on&nbsp;<strong>android &gt; assets</strong>. If you want to change some images, you can go to&nbsp;<strong>desktop &gt; assets_raw</strong>, on there you can found all images assets (<strong>be carefull, don&#39;t use new name. If you want to use new name, I recommend visit this <a href="https://github.com/libgdx/libgdx/wiki/Skin">link</a></strong>). &quot;You said, all assets in&nbsp;<strong>android?&quot;</strong>&nbsp;Yes, there all in android, image asset in desktop is&nbsp;<strong>raw,&nbsp;</strong>this assets is non-packed image. So you must pack it first. You can download&nbsp;<strong>TexturePacker</strong> from LibGDX on <a href="https://code.google.com/p/libgdx-texturepacker-gui/">here</a>. Once your download has done, open&nbsp;<strong>TexturePacker.&nbsp;</strong>You&#39;ll see this GUI.</p>
+
+	<p>
+	<img src="assets/images/Screenshot/DropDots7.1.png" style="width: 800px; height: 450px;"></p>
+	<p>
+	Then click&nbsp;<strong>Open Project,&nbsp;</strong>point to DropDots folder and find&nbsp;<strong>packer.</strong> Open it!</p>
+	<p>
+	<img src="assets/images/Screenshot/DropDots7.2.png" style="width: 800px; height: 450px;"></p>
+	<p>
+	Make sure the <strong>Input Directory </strong>and&nbsp;<strong>Output Directory</strong> are correct.&nbsp;Then click&nbsp;<strong>Pack&#39;em all.&nbsp;</strong>Done, your assets image has been packed on&nbsp;<strong>android/assets.</strong></p>
+</section>
+<section id="ads">
+	<div class="page-header"><h3>ADS</h3><hr class="notop"></div>
+<p>
+	Go to&nbsp;<strong>Constants.java&nbsp;</strong>and file&nbsp;<strong>ADMOB_BANNER_ANDROID&nbsp;</strong>and&nbsp;<strong>ADMOB_INTERSTITIAL_BANNER</strong> with your id.</p>
+<p>
+	<img src="assets/images/Screenshot/DropDots8.png"></p>
+	<p>
+</section>
+<section id="leaderboard_and_achievement">
+	<div class="page-header"><h3>Leaderboard and Achievement</h3><hr class="notop"></div>
+<p>
+	Go to&nbsp;<strong>Constants.java</strong> and change the whole ID with your ID. You can create your own ID if you have&nbsp;<strong>Google PLay Developer Account.</strong></p>
+	<p>
+	<img src="assets/images/Screenshot/DropDots11.png"></p>
+	<p>
+</section>
+<section id="in_app_purchase">
+	<div class="page-header"><h3>In App Purchase</h3><hr class="notop"></div>
+<p>
+	Open&nbsp;<strong>Constants.java,&nbsp;</strong>and fill&nbsp;<strong>GOOGLE_PLAY&nbsp;</strong>with your Key. You can find your key in&nbsp;<strong>Google Play Developer Console &gt; All Application &gt; Your Game &gt; Services and APIs &gt; YOUR LICENSE KEY FOR THIS APPLICATION</strong>.&nbsp;</p>
+<p>
+	Then fill your <strong>In App Product</strong>&nbsp;key to&nbsp;<strong>Constants &gt; IAP_NO_ADS</strong>.&nbsp;</p>
+	<p>
+	<img src="assets/images/Screenshot/DropDots9.png"></p>
+	<p>
+</section>
+<section id="google_analytics">
+	<div class="page-header"><h3>Google Analytics</h3><hr class="notop"></div>
+<p>
+	Open&nbsp;<strong>Constants.java&nbsp;</strong>and fill&nbsp;<strong>GOOGLE_ANALYTICS_KEY&nbsp;</strong>with your key. You can create on <a href="http://www.google.com/analytics/">here</a>.</p>
+	<p>
+	<img src="assets/images/Screenshot/DropDots10.png" ></p>
+	<p>
+</section>
+<section id="disable_ads">
+	<div class="page-header"><h3>Disable Ads</h3><hr class="notop"></div>
+<p>
+	Open&nbsp;<strong>AndroidLauncher.java&nbsp;</strong>and find&nbsp;<strong>setupInterstitialAds() and setupAdsBanner()&nbsp;</strong> comment or delete that line code.
+</section>
+
+<section id="disable_iap">
+	<div class="page-header"><h3>Disable In-app Purchase</h3><hr class="notop"></div>
+<p>
+	Open&nbsp;<strong>Constants.java&nbsp;</strong>and find&nbsp;<strong>USING_IAP&nbsp;</strong> then set the value to false.
+</section>
+
+	</div>
+</body>
+</html>
